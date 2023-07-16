@@ -159,7 +159,7 @@ article p {
 }
 
 .company {
-    background: url("/images/bg3.jpg");
+    background: url("../images/bg3.jpg");
     background-repeat: no-repeat;
 }
 .company article{
@@ -174,17 +174,15 @@ article p {
     transform-style: preserve-3d; 
      transform: rotateX(22deg) rotate(-18deg) rotateY(22deg);
     height: 3.125rem;
-    width: 3.125remx;
-    /* From https://css.glass */
-/* From https://css.glass */
-background: rgb(3, 46, 18);
-border-radius: 1rem;
-box-shadow: 0 0.25rem 1.875rem rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(1.25rem);
--webkit-backdrop-filter: blur(1.25rem);
-border: 0.063remsolid rgba(255, 255, 255, 0.21);
-position: absolute;
-right: 3.125rem;
+    width: 3.125rem;
+    background: rgb(3, 46, 18);
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 1.875rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.25rem);
+    -webkit-backdrop-filter: blur(1.25rem);
+    border: 0.063remsolid rgba(255, 255, 255, 0.21);
+    position: absolute;
+    right: 3.125rem;
 }
 
 /* SERVICES ICON */
